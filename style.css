@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+.paragraph1 {
+    width: 538px;
+    height: 59px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "inter";
+    position: absolute;
+    top: 195px;
+    left: 391px;
+    z-index: 4;
+    text-align: center;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 371px;
+    z-index: 1;
+}
+
+.img3 {
+    position: absolute;
+    top: 0;
+    left: 859px;
+    z-index: 2;
+}
+
